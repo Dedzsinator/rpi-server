@@ -6,10 +6,10 @@ apt-get install nginx
 pip install pi-ina219
 apt-get install git-core
 cd
-git clone git://git.drogon.net/wiringPi
-cd ~/wiringPi
+git clone https://github.com/WiringPi/WiringPi
+cd ~/WiringPi
 git pull origin
-cd ~/wiringPi
+cd ~/WiringPi
 ./build
 cd
 apt-get install php-fpm
